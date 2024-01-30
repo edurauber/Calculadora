@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Roboto";
+    src:url(../assets/Roboto-Regular.ttf)
+}
+
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap {
+    gap: 5px;
+}
+
+.hover {
+    span:hover {
+        background-color: #8EBBFF !important;
+        color: white !important;
+    }
+}
+
